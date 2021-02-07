@@ -1,2 +1,5 @@
-from .entsoe import EntsoeRawClient, EntsoePandasClient, __version__
+from .client_raw import EntsoeRawClient
+# from .client_pandas import EntsoePandasClient
+# from , __version__
+
 from .mappings import Area
